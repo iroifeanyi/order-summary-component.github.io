@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* max-width: 100%; */
+    /* height: 120vh; */
+    background-image: linear-gradient(to bottom, rgba(18, 127, 199, 0.295) 0%,rgba(7, 112, 182, 0.267) 100%), url(./images/pattern-background-desktop.svg);
+}
+.box-fill{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 75vh;
+    width: 400px;
+    /* max-width: 470px; */
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first-box{
+    width: 400px;
+}
+.first-box img{
+    width: 100%;
+}
+.next-box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.second-box{
+    text-align: center;
+}
+.header-text{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0px 10px 0px;
+}
+.sec-text{
+    font-size: 13px;
+    width: 60%;
+    margin-left: 80px;
+}
+.thrid-box{
+    display: flex;
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px 0px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.548);
+}
+.some-text{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.first{
+    font-weight: 800;
+}
+.sec{
+    margin-left: 160px;
+    color: blue;
+    text-decoration: underline;
+}
+.thrid{
+    margin-top: -10px;
+}
+.submit-box{
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+}
+.submit-text{
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+.last-box{
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    font-size: 13px;
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 300px;
+        max-width: 300px;
+    }
+    .thrid-box{
+        margin-left: 75px;
+        width: 250px;
+        padding: 15px 0px 10px 20px;
+    }
+    .submit-box{
+        width: 250px;
+        margin-left: 75px;
+    }
+    .some-text{
+        margin-left: 10px;
+    }
+    .sec{
+        margin-left: 120px;
+        color: blue;
+        text-decoration: underline;
+    }
+}
